@@ -1,0 +1,19 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background-color:rgb(206, 244, 255);
+    
+}
+
+canvas{
+    position: absolute;
+    margin: auto;
+    padding: 0%;
+    background-color: rgb(205, 247, 247);
+    left:0%;
+    right:0%;
+    bottom:0%;
+    top:0%;
+    
+}
+
