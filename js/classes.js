@@ -20,7 +20,7 @@ draw(){
 animacao(vel, limite, nomeImg){
         this.tempo += 1
         if(this.tempo >= vel){
-            this.tempo = 0
+            this.tempo = -1
             this.quadro += 1
         }
         if(this.quadro >= limite){
@@ -43,10 +43,10 @@ class Ground extends Bg{
 
 }
 
-class Canu extends obj{
+class Pikachu extends obj{
     
 }
-class Bird extends obj{
+class Dog extends obj{
     velocidade = 2 
     gravidade = 1
     move(){
@@ -56,11 +56,11 @@ class Bird extends obj{
         this.posy += this.velocidade        
     }
     limite(){
-        if(this.posy >= 660){
-                this.posy = 660
+        if(this.posy >= 400){
+                this.posy = 400
             }
-        else if(this.posy <= 110){
-            this.posy = 110
+        else if(this.posy <= 60){
+            this.posy = 60
         }
     }     
 }
